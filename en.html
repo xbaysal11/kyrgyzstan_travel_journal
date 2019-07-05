@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Marvel tourist agency</title>
+    <link rel="stylesheet" href="wp-content/themes/marvel/assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="wp-content/themes/marvel/assets/js/slick/slick.css">
+    <link rel="stylesheet" href="wp-content/themes/marvel/assets/js/slick/slick-theme.css">
+    <link rel="stylesheet" href="wp-content/themes/marvel/assets/css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="wp-content/themes/marvel/assets/js/swiper/css/swiper.min.css">
+    <link rel="shortcut icon" href="wp-content/themes/marvel/img/favicon.png" type="image/x-icon">
+
+</head>
+
+<body class="home blog wp-custom-logo hfeed" >
+<main>
+<header class="header">
+	<div class="wrap">
+        <a href="index.html"><img src="wp-content/themes/marvel/img/akirova.com/logo-w.png" alt="" class="main-logo"></a>
+    </div>
+    <div class="header-top">
+        <div class="wrap">
+            <div class="header-mail header-top--item">
+                <i class="far fa-envelope-open"></i>
+                <a href="en.html">marveltravel@gmail.com</a>
+            </div>
+            <div class="header-phones header-top--item">
+                <i class="fas fa-mobile-alt"></i>
+                <a href="en.html">+996 772 169363</a>
+            </div>
+            <div class="header-phones header-top--item">
+                <i class="fas fa-phone-volume"></i>
+                <a href="en.html">+996 705 954549</a>
+            </div>
+            <div class="header-lang header-top--item" id="lang">
+                <i class="fas fa-globe-americas"></i>
+                <a hreflang="en-GB" lang="en-GB" href="en.html" class="active language" onclick="en();">eng</a>
+                <a hreflang="ru-RU" lang="ru-RU" href="index.html" class=" language" onclick="ru();">ru</a>
+            </div>
+        </div>
+    </div>
+    <div class="header-bottom js_default" id="js_sticky-menu">
+        <div class="wrap">
+            <ul class="header-menu">
+                <div class="menu-main-menu-en-container"><ul id="menu-main-menu-en" class="menu"><li id="menu-item-145" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-145"><a href="en.html">Main Page</a></li>
+<li id="menu-item-178" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-178"><a href="kyrgyzstan.html">Kyrgyzstan tours</a></li>
+<li id="menu-item-162" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-162"><a href="promotions.html">Promotions</a></li>
+<li id="menu-item-161" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-161"><a href="visa-information.html">Visa information</a></li>
+<li id="menu-item-160" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-160"><a href="blog.html">Blog</a></li>
+<li id="menu-item-167" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-167"><a href="en/contacts/index.html">Contacts</a></li>
+</ul></div><!--                <li class="active"><a href="/">Главная</a></li>-->
+<!--                <li class=""><a href="/туры-по-кыргызстану">Туры по Кыргызстану</a></li>-->
+<!--                <li class=""><a href="/акции">Акции</a></li>-->
+<!--                <li class=""><a href="/визовая-информация">Визовая информация</a></li>-->
+<!--                <li class=""><a href="/блог">Наш блог</a></li>-->
+<!--                <li class=""><a href="/контакты">Контакты</a></li>-->
+            </ul>
+        </div>
+    </div>
+</header>
+
+<script type="text/javascript">
+
+    function en() {
+        document.cookie='language=en';
+        location.reload();
+        $('.language').removeClass('active');
+//        $('#en').addClass('active');
+    }
+
+    function ru() {
+        document.cookie='language=ru';
+        location.reload();
+        $('.language').removeClass('active');
+//            $('#ru').addClass('active');
+
+    }
+
+  
+</script>    <section class="first-screen">
+        <div class="first-screen--content">
+            <div class="wrap">
+                <div class="first-screen--content-center">
+                    <img class="logo-animate" src="wp-content/themes/marvel/img/logo2.svg" alt="logo">
+                    <h1 class="title">marvel travel</h1>
+                    <h2 class="subtitle">
+                                                we organize tours in Kyrgyzstan and tours abroad
+                          
+                    </h2>
+                    <p class="animate-text">
+                                                Our orders:
+                                                <span id="animate-text"></span>
+                    </p>
+                    <h2 class="subtitle">
+                                                tourism agency:
+                                            </h2>
+                </div>
+            </div>
+        </div>
+        <video loop muted autoplay poster="wp-content/themes/marvel/assets/images/videoPoster.png" class="fullscreen-bg__video first-screen--background-video">
+            <source src="wp-content/themes/marvel/assets/video/Marvel.mp4" type="video/mp4">
+        </video>
+        <img class="bg-img" src="wp-content/themes/marvel/img/akirova.com/main-slide.jpg" alt="">
+    </section>
+
+    <section class="spec-tour">
+        <div class="wrap">
+            <h2 class="title">
+                                Special offers:
+                            </h2>
+            <p class="description">
+                                We strive to meet your every need by preparing compilation of special thematic tours which will suit your preferences.
+                            </p>
+            <div class="js-slick_spec-tours">
+                <div class="spec-tour__item">
+                    <a href="все-туры%3Fcategory=21.html">
+                        <div class="photo">
+                                                            <img src="wp-content/themes/marvel/img/tours-spec/2.jpg" alt="img">
+                                                        <p class="description">
+                                                                    We strive to meet your every need by preparing compilation of special thematic tours which will suit your preferences. We strive to meet your every need by preparing compilation of
+                                                                </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="spec-tour__item">
+                    <a href="все-туры%3Fcategory=22.html">
+                        <div class="photo">
+                                                            <img src="wp-content/themes/marvel/img/tours-spec/4.jpg" alt="img">
+                                                        <p class="description">
+                                                                    We strive to meet your every need by preparing compilation of special thematic tours which will suit your preferences. We strive to meet your every need by preparing compilation of
+                                                                </p> 
+                        </div>
+
+                    </a>
+                </div>
+                <div class="spec-tour__item">
+                    <a href="все-туры%3Fcategory=23.html">
+                        <div class="photo">
+                                                            <img src="wp-content/themes/marvel/img/tours-spec/6.jpg" alt="img">
+                                                        <p class="description">
+                                                                    We strive to meet your every need by preparing compilation of special thematic tours which will suit your preferences. We strive to meet your every need by preparing compilation of
+                                                                </p>
+                        </div>
+
+                    </a>
+                </div>
+                <div class="spec-tour__item">
+                    <a href="все-туры%3Fcategory=24.html">
+                        <div class="photo">
+                                                            <img src="wp-content/themes/marvel/img/tours-spec/8.jpg" alt="img">
+                                                        <p class="description">
+                                                                    We strive to meet your every need by preparing compilation of special thematic tours which will suit your preferences. We strive to meet your every need by preparing compilation of
+                                                                </p>
+                        </div>
+
+                    </a>
+                </div>
+                <div class="spec-tour__item">
+                    <a href="все-туры%3Fcategory=25.html">
+                        <div class="photo">
+                                                            <img src="wp-content/themes/marvel/img/tours-spec/10.jpg" alt="img">
+                                                        <p class="description">
+                                                                    We strive to meet your every need by preparing compilation of special thematic tours which will suit your preferences. We strive to meet your every need by preparing compilation of
+                                                                </p>
+                        </div>
+
+                    </a>
+                </div>
+                <div class="spec-tour__item">
+                    <a href="все-туры%3Fcategory=26.html">
+                        <div class="photo">
+                                                            <img src="wp-content/themes/marvel/img/tours-spec/12.jpg" alt="img">
+                                                        <p class="description">
+                                                                    We strive to meet your every need by preparing compilation of special thematic tours which will suit your preferences. We strive to meet your every need by preparing compilation of
+                                                                </p>
+                        </div>
+
+                    </a>
+                </div>
+                <div class="spec-tour__item">
+                    <a href="все-туры%3Fcategory=27.html">
+                        <div class="photo">
+                                                            <img src="wp-content/themes/marvel/img/tours-spec/14.jpg" alt="img">
+                                                        <p class="description">
+                                                                    We strive to meet your every need by preparing compilation of special thematic tours which will suit your preferences. We strive to meet your every need by preparing compilation of
+                                                                </p>
+                        </div>
+
+                    </a>
+                </div>
+                <div class="spec-tour__item">
+                    <a href="все-туры%3Fcategory=28.html">
+                        <div class="photo">
+                                                            <img src="wp-content/themes/marvel/img/tours-spec/16.jpg" alt="img">
+                                                        <p class="description">
+                                                                    We strive to meet your every need by preparing compilation of special thematic tours which will suit your preferences. We strive to meet your every need by preparing compilation of
+                                                                </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="spec-tour__item">
+                    <a href="все-туры%3Fcategory=28.html">
+                        <div class="photo">
+                                                            <img src="wp-content/themes/marvel/img/tours-spec/17.jpg" alt="img">
+                                                        <p class="description">
+                                                                    We strive to meet your every need by preparing compilation of special thematic tours which will suit your preferences. We strive to meet your every need by preparing compilation of
+                                                                </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="spec-tour__item">
+                    <a href="все-туры%3Fcategory=28.html">
+                        <div class="photo">
+                                                            <img src="wp-content/themes/marvel/img/tours-spec/19.jpg" alt="img">
+                                                        <p class="description">
+                                                                    We strive to meet your every need by preparing compilation of special thematic tours which will suit your preferences. We strive to meet your every need by preparing compilation of
+                                                                </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="welcome-slider">
+        <div class="wrap js-slick_welcome-slider">
+                         <div class="welcome-slider__item clearfix">
+                <div class="welcome-slider__left">
+                    <img src="wp-content/themes/marvel/img/kg/kg.jpg" alt="">
+                </div>
+                <div class="welcome-slider__right">
+                    <p class="welcome-slider__title">Welcome to Kyrgyzstan</p>
+                    <p class="welcome-slider__description">The food in Kyrgyzstan is a hearty mix of influences from Russia, Asia and Turkey. Expect a lot of bread and meat, noodles, potatoes, dumplings, soups and rice, as well as fresh tomato and cucumber salads. Summer sees an abundance of fruit, picked wild or straight from orchards.</p>
+                    <p class="welcome-slider__description">The Games feature spectacular opening and closing ceremonies (the only ticketed events), as well as dance and theatre performances in spectacular traditional costumes. The Kok-boru tournament is the most popular event; a take on polo but involving a dead goat. It has its origins in a time when Kyrgyz hunters would chase wolves, grab them from horseback and then toss them to each other.</p>                
+                    <a href="туры-по-кыргызстану.html"><button class="welcome-slider__btn red-btn">More</button></a>
+                </div>
+            </div>
+            <div class="welcome-slider__item clearfix">
+                <div class="welcome-slider__left">
+                    <img src="wp-content/themes/marvel/img/akirova.com/main-slide.jpg" alt="">
+                </div>
+                <div class="welcome-slider__right">
+                    <p class="welcome-slider__title">                        
+                                                Why people choose Marvel Travel Agency?
+                          
+                    </p>
+                    <p class="welcome-slider__description">
+                                                For the reason that the team of Marvel Travel know how to dwell tourists or travelers coming to Kyrgyzstan into the ancient Kyrgyz culture, history and traditions. The founders of the company loved interacting with foreigners coming to Kyrgyzstan and have been organizing tours and showing around, throughout the years, after talking to many travelers we have identified what would be interesting for a foreigner to see or to get to experience in here. We are interested in making your journey an unforgettable experience. Our company’s management  is based on Japanese principles, one of which is “KAIZEN”. We aim to build long - term relationships with our clients, partners and team members therefore, we are focused on continuous improvement of the tours. We are committed to our goal to spread the joy, amazing experience and unforgettable emotions. 
+                        <br> 
+                        The professional travel agents at Marvel Travel Agency have been planning and organizing  all-inclusive tours for individuals, families and groups, and we'd love to do the same for you. Call or e-mail us for a consultation regarding our tours and you'll be on your way to your amazing tours!
+                         
+                    </p>
+                    <div class="welcome-slider__properties">
+                        <div class="welcome-slider__properties_item" style="width: 190px">
+                            <i class="icon fas fa-award"></i>
+                            <div class="text">
+                                <h4 class="title">
+                                                                               Honesty
+                                     
+                                </h4>
+                                <p class="description">
+                                                                        We love what we do and work with the values of the company.
+                                     
+                                </p>
+                            </div>
+                        </div>
+                        <div class="welcome-slider__properties_item" style="width: 190px">
+                            <i class="icon far fa-thumbs-up"></i>
+                            <div class="text">
+                                <h4 class="title">
+                                                                        Quality
+                                                                </h4>
+                                <p class="description">
+                                                                        Our company guarantees high-quality work with the client at all stages
+                                 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="welcome-slider__properties_item" style="width: 190px">
+                            <i class="icon far fa-credit-card"></i>
+                            <div class="text">
+                                <h4 class="title">
+                                                                        Availability
+                                                                </h4>
+                                <p class="description">
+                                                                             It is possible to pay immediately, or take tours on credit
+                                                                    </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                    </div>
+    </section>
+
+    <section class="tours clearfix">
+        <div class="wrap clearfix">
+            <h2 class="title"> 
+                            Popular tours
+                 
+            </h2>
+            <div class="tours__menu">
+                <div class="js-tours-nav-container">
+                    <ul class="tours__menu_tab swiper-wrapper" style="">
+                                                        <li data-tab="tab1" class="swiper-slide active">
+                    <span>
+                    	                 All the tours
+                 
+                    </span></li>
+                                        <li class="swiper-slide" data-tab="tab2"><span>Asia</span></li>
+                                                            <li class="swiper-slide" data-tab="tab3"><span>Dubai</span></li>
+                                                            <li class="swiper-slide" data-tab="tab4"><span>Europe</span></li>
+                                                            <li class="swiper-slide" data-tab="tab5"><span>Turkey</span></li>
+                                                            </ul>
+                </div>
+            </div>
+                                                                                                                                </div>
+    </section>
+    <div class="modal modal-tour" id="modal-tour-1">
+    </div>
+		<footer>
+        <div class="wrap flex-between">
+            <div class="footer-item">
+                <h4 class="title">Marvel Travel</h4>
+                <ul>
+                    <li>
+                    	                    		<a href="index.html">Home</a>
+                                                </li>
+                    <li>
+                    	                    		<a href="index.html">All the tours</a>
+                                                </li>
+                    <li>
+                    	                    		<a href="kyrgyzstan.html">Kyrgyzstan tours</a>
+                                                </li>
+                    <li>
+                    	                    		<a href="promotions.html">Promotions</a>
+                                                </li>
+                    <li>
+                    	                    		<a href="визовая-информация.html">Visa information</a>
+                                                </li>
+                    <li>
+                    	                    		<a href="blog.html">Blog</a>
+                                                </li>
+                    <li>
+                    	                    		<a href="en.html#">Contacts</a>
+                                                </li>
+                </ul>
+            </div>
+            <div class="footer-item">
+                <h4 class="title">
+                                        Special offers
+                                    </h4>
+                <ul>
+                    <li><a href="все-туры%3Fcategory=21.html">  
+                                        Perevod
+                    </a></li>
+                    <li><a href="все-туры%3Fcategory=22.html">
+                                        Perevod
+                                        </a></li>
+                    <li><a href="все-туры%3Fcategory=23.html">
+                                         Perevod
+                    </a></li>
+                    <li><a href="все-туры%3Fcategory=24.html">
+                                         Perevod
+                    </a></li>
+                    <li><a href="все-туры%3Fcategory=25.html">
+                                         Perevod
+                    </a></li>
+                    <li><a href="все-туры%3Fcategory=26.html">
+                                         Perevod
+                    </a></li>
+                    <li><a href="все-туры%3Fcategory=27.html">
+                                         Perevod
+                    </a></li>
+                    <li><a href="все-туры%3Fcategory=28.html">
+                                         Perevod
+                    </a></li>
+                </ul>
+            </div>
+            <div class="footer-item">
+                <h4 class="title">
+                                    Kyrgyzstan tours
+                    </h4>
+                <ul>
+                                                     <li><a href="туры-по-кыргызстану.html">4x4 tours</a></li>        
+                                  <li><a href="туры-по-кыргызстану.html">Bicycle tours</a></li>        
+                                  <li><a href="туры-по-кыргызстану.html">Ealge hunting</a></li>        
+                                  <li><a href="туры-по-кыргызстану.html">Ethno tours</a></li>        
+                                  <li><a href="туры-по-кыргызстану.html">Hiking</a></li>        
+                                  <li><a href="туры-по-кыргызстану.html">Horse riding</a></li>        
+                                  <li><a href="туры-по-кыргызстану.html">Trekking</a></li>        
+                               
+                
+                </ul>
+            </div>
+            <div class="footer-item">
+                <h4 class="title">
+                                    Interesting posts
+                                    </h4>
+                <ul>
+                            <li><a href="en/if-you-read-nothing-else-today-read-this-report-on-buying-college-essays/index.html">If You Read Nothing Else Today, Read This Report on Buying College Essays</a></li>
+                    <li><a href="en/name-of-articale/index.html">Name of articale</a></li>
+                    <li><a href="en/airport-manas/index.html">Airport Manas</a></li>
+                        
+                </ul>
+            </div>
+            <a href="https://artcode.biz" class="ArtCode" target="_blank">
+                <img src="wp-content/themes/marvel/img/ArtCode.svg" alt="">
+            </a>
+        </div>        
+    </footer>
+
+</main>
+
+<nav>
+    <ul>
+        <div class="menu-main-menu-en-container"><ul id="menu-main-menu-en-1" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-145"><a href="en.html">Main Page</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-178"><a href="kyrgyzstan.html">Kyrgyzstan tours</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-162"><a href="promotions.html">Promotions</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-161"><a href="visa-information.html">Visa information</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-160"><a href="blog.html">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-167"><a href="en/contacts/index.html">Contacts</a></li>
+</ul></div>    </ul>
+</nav>
+
+<div class="burger">
+    <span></span>
+</div>
+
+
+
+<script src="wp-content/themes/marvel/assets/js/jquery-3.3.1.min.js"></script>
+<script src="wp-content/themes/marvel/assets/js/jquery-migrate-1.2.1.min.js"></script>
+<script src="wp-content/themes/marvel/assets/js/slick/slick.min.js"></script>
+<script src="wp-content/themes/marvel/assets/js/typeit.min.js"></script>
+<script src="wp-content/themes/marvel/assets/js/jquery.fancybox.min.js"></script>
+<script src="wp-content/themes/marvel/assets/js/swiper/js/swiper.min.js"></script>
+<script src="wp-content/themes/marvel/assets/js/app.js"></script>
+<script src="wp-content/themes/marvel/js/app.js"></script>
+</body>
+</html>
+
+<script>
+    var ajaxurl = "https://marveltravel.net/wp-admin/admin-ajax.php";
+    $('.js-modal').on('click', function (e) {
+        e.preventDefault();
+        var postid = $(this).attr('data-postid');
+        var self = $(this);
+        // I don't know why the shorthand method had not worked for me as well
+        // But this method has worked for me.
+        $.ajax({
+            type: "POST",
+            url: ajaxurl,
+            data: {
+                action: 'my_load_ajax_content',
+                postid: postid,
+            }
+        }).done(function (data) {
+            // Just simple html() method with data will show all the content.
+            self.attr('data-src', '#modal-tour-1');
+            $('#modal-tour-1').html(data);
+            openModal(self.attr('data-src'));
+        });
+    })
+</script>
+
+                        
+                        <script>
+                        new TypeIt('#animate-text', {
+                        strings: ["Shopping tours to Dubai", "Magnificent century, the main cities of Turkey", "Tour to the fabulous island of Hainan", "Grand tour of European cities", "Tours to the Dominican Republic", "the Best world diving center - EGYPT", "Meet the New Year in Thailand"],
+                        animateIntro : true,
+                        breakLines: false,
+                        autoStart: true,
+                        loop: true,
+                        introDelay : 2000,
+                        loopCount: 1,
+                        introDuration: 5000
+                    });
+                        </script>
+                        
