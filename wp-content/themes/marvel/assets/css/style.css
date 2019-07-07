@@ -676,6 +676,10 @@ nav {
       }
     }
 
+.kg-tours .wrap{
+  margin-bottom: 50px;
+}
+
 .tours {
   background: url("../../img/tours/hero.jpg") 0 0 fixed;
   padding: 60px 0 100px 0;
@@ -712,7 +716,7 @@ nav {
       margin-bottom: 40px; }
       .tours__menu_tab li {
         float: none;
-        width: 213px;
+        width: 133px;
         margin: 0 0 -8px;
         display: inline-block; }
         .tours__menu_tab li span {
@@ -722,7 +726,7 @@ nav {
           font-weight: bold;
           position: relative;
           margin-bottom: 8px;
-          padding: 19px 31px;
+          padding: 19px 0;
           line-height: normal;
           background-color: #f0f3f6;
           color: #373737;
