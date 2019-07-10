@@ -260,7 +260,11 @@ nav {
     display: none; }
   .order-tour .static-button {
     display: block; }
-
+    
+    .main-logo {
+      position: absolute;
+      height: 20%;
+       }
 @media screen and (max-width: 1000px) {
   .order-tour {
     width: 100%;
@@ -271,10 +275,7 @@ nav {
       display: inline-block;
       text-transform: lowercase;
       margin-left: 5px; } }
-      .main-logo {
-        position: absolute;
-        height: 20%;
-         }
+      
 .header {
   position: absolute;
   z-index: 99;
@@ -417,7 +418,7 @@ nav {
 @media screen and (max-width: 767px) {
   .first-screen {
     overflow: hidden; }
-    .first-screen video {
+    .fullscreen-bg  {
       display: none; }
     .first-screen .bg-img {
       display: block;
@@ -696,6 +697,11 @@ nav {
   margin: -200px auto 0  0;
   overflow: auto;
 }
+.container{
+  margin-left: 8em;
+}
+
+
 
 .maps{
   /* width: 100%; */
@@ -3264,10 +3270,18 @@ footer {
 @media screen and (max-width: 500px) {
   footer {
     padding: 40px 0; }
+    .container{
+      margin-left:0;
+    }
     .footer-item {
-      width: 48%;
+      width: 100%;
       margin-bottom: 20px;
-      display: inline-block; } }
+      display: inline-block; }
+    .main-logo {
+      position: absolute;
+      height: 10%;
+       }
+    }
 
 @media screen and (max-width: 500px) {
   .footer-item{
