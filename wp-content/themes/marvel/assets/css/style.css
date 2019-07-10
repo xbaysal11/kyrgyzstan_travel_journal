@@ -3256,7 +3256,11 @@ footer {
   footer a {
     color: black;
     font-size: 1.2em;
-    line-height: 21px; }
+    line-height: 24px; }
+    footer p {
+      color: black;
+      font-size: 1.2em;
+      line-height: 24px; }
     footer a:hover {
       color: #eb3e3c; }
   footer .title {
