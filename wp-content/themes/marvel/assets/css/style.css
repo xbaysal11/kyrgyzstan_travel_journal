@@ -712,14 +712,14 @@ nav {
   margin: 10px 0; 
 }
 
-.maps img{
+.maps a img{
   width:60px;
   height: auto;
   margin: 0 5px;
   flex-basis:30%;
 }
 @media screen and (max-width: 1024px) {
-  .maps img{
+  .maps a img{
     width:30px;}
 }
 
@@ -1268,14 +1268,17 @@ nav {
   padding: 0; }
 
 .modal-tour__header {
-  padding: 44px; }
+  padding: 30px 0;
+}
   .modal-tour__header .options {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex; }
+    display: flex; 
+    justify-content: center;
+  }
     .modal-tour__header .options span {
-      font-size: 20px;
-      color: black;
+      font-size: 16px;
+      color: white;
       -ms-flex-item-align: center;
           align-self: center; }
     .modal-tour__header .options .included {
@@ -1284,8 +1287,8 @@ nav {
       display: flex;
       -ms-flex-item-align: center;
           align-self: center;
-      color: #fff;
-      background-color: #646464;
+      color: #eb3e3c;
+      background-color: white;
       font-size: 14px;
       padding: 5px 10px;
       position: relative;
@@ -1293,7 +1296,7 @@ nav {
       margin-left: 30px;
       cursor: pointer; }
       .modal-tour__header .options .included.active {
-        background-color: #eb3e3c; }
+        background-color: white; }
         .modal-tour__header .options .included.active img.plus {
           display: none; }
         .modal-tour__header .options .included.active img.minus {
@@ -1307,7 +1310,7 @@ nav {
         .modal-tour__header .options .included img.minus {
           display: none; }
       .modal-tour__header .options .included span {
-        color: white;
+        color: #eb3e3c;
         -ms-flex-item-align: center;
             align-self: center;
         margin-left: 5px;
@@ -1328,18 +1331,20 @@ nav {
         cursor: pointer; }
   .modal-tour__header .included-content {
     display: none;
-    margin-top: 20px; }
+    margin: 20px 100px; 
+  
+  }
     .modal-tour__header .included-content.active {
       display: block; }
     .modal-tour__header .included-content .label {
-      color: black;
+      color: white;
       margin: 10px 0;
       font-size: 14px;
-      font-weight: 300; }
+      font-weight: bold; }
     .modal-tour__header .included-content .content {
       font-size: 14px;
       font-weight: 300;
-      color: #646464;
+      color: white;
       line-height: 20px;
       text-transform: none; }
     .modal-tour__header .included-content .left {
@@ -1372,12 +1377,14 @@ nav {
     text-align: center;
     text-transform: uppercase;
     color: #fff;
-    font-size: 24px;
+    font-size: 32px;
     line-height: 40px; }
   .modal-tour__middle .sub-title {
     margin-top: 20px;
-    font-weight: bold;
-    text-align: center; }
+    /* font-weight: bold; */
+    text-align: center;
+    font-size: 16px;
+  }
 
 .modal-tour .tabs {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
@@ -1392,7 +1399,7 @@ nav {
     font-size: 40px;
     line-height: 0.8em;
     color: black; }
-  .modal-tour .tabs a {
+  /* .modal-tour .tabs a {
     background: #fd264f;
     color: #fff;
     display: block;
@@ -1407,7 +1414,7 @@ nav {
     text-decoration: none;
     -webkit-transform: rotate(45deg);
         -ms-transform: rotate(45deg);
-            transform: rotate(45deg); }
+            transform: rotate(45deg); } */
   .modal-tour .tabs button:focus,
   .modal-tour .tabs input:focus,
   .modal-tour .tabs textarea:focus,
@@ -1990,7 +1997,7 @@ blockquote {
 .about-kg {
   position: relative;
   border-radius: 5px;
-  padding-top: 60px;
+  /* padding-top: 60px; */
   padding-bottom: 160px;
   font-family: 'Roboto', Arial, sans-serif; }
   .about-kg .title {
@@ -2465,10 +2472,10 @@ blockquote {
       object-fit: cover; }
       .kg-tour-review .review-slider-nav img:hover{
         cursor: pointer;
-        border: 2px solid white;
+        border: 2px solid #eb4341;
       }
       .kg-tour-review .review-slider-nav img.slick-current {
-        border: 2px solid white;
+        border: 2px solid #eb4341;
         height: 100px;
         width: 100px !important; }
   .kg-tour-review .review-text {
@@ -2486,6 +2493,77 @@ blockquote {
     text-transform: uppercase;
     text-align: center;
     margin: 28px 0; }
+
+.partners {
+  /* background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../../img/akirova.com/review.jpg) center center;
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../img/akirova.com/review.jpg) center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../img/akirova.com/review.jpg) center center;
+  background-size: cover; */
+  /* background-attachment: fixed; */
+  color: black;
+  background: white;
+  font-family: 'Roboto', Arial, sans-serif;
+  position: relative; }
+  .partners .title {
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 28px;
+    font-size: 28px;
+    font-weight: 700; }
+  .partners .review-slider-for {
+    margin-top: 20px; }
+  .partners .review-slider-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+     }
+    .partners .review-slider-nav .slick-track{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+            width: 100%!important;
+            transform: translate3d(0px, 0px, 0px)!important;}
+    .partners .review-slider-nav img {
+      -ms-flex-item-align: center;
+          align-self: center;
+      height: 140px;
+      border-radius: 50%;
+      width: 140px !important;
+      margin: 8px;
+      object-fit: cover; }
+      .partners .review-slider-nav img:hover{
+        cursor: pointer;
+        border: 2px solid #eb4341;
+      }
+      .partners .review-slider-nav img .slick-current {
+        border: 2px solid #eb4341;
+        height: 200px;
+        width: 200px !important; }
+  .partners .review-text {
+    padding: 0 200px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.8em;
+    padding-bottom: 120px; }
+    .partners .review-text:hover,
+    .partners .review-author:hover{
+      cursor: pointer;
+    }
+  .partners .review-author {
+    font-size: 21px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 28px 0; }
+
 @media screen and (max-width: 767px) {
   .kg-tour-review .review-text {
     padding: 0 16px;
