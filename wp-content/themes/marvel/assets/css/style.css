@@ -1990,7 +1990,8 @@ blockquote {
 .about-kg {
   position: relative;
   border-radius: 5px;
-  padding: 60px 0;
+  padding-top: 60px;
+  padding-bottom: 160px;
   font-family: 'Roboto', Arial, sans-serif; }
   .about-kg .title {
     font-size: 38px;
