@@ -1522,6 +1522,81 @@ nav ul li a:hover:after {
   }
 }
 
+.blockquote {
+    margin: 0;
+    padding: 100px 2rem;
+    line-height: 1.4;
+    color: #444;
+    quotes: "“" "”";
+}
+.blockquote-bubble {
+  padding: 0;
+  margin: 1rem auto;
+  display: inline-block;
+}
+
+.masonry-list {
+  /* -webkit-column-count: 2;
+  column-count: 2; */
+  -webkit-column-fill: balance;
+  column-fill: balance;
+  -webkit-column-gap: 2rem;
+  column-gap: 2rem;
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+  margin: 6rem 0;
+}
+
+ol, ul {
+  list-style: none;
+  padding-inline-start: 0;
+}
+.masonry-list>* {
+  overflow: visible;
+  -webkit-column-break-inside: avoid;
+  break-inside: avoid;
+  /* display: inline-block; */
+}
+.blockquote-bubble .blockquote-content {
+  border-radius: 0.5rem;
+  background-color: #F3F4F4;
+  padding: 2em;
+  margin: 0 0 1rem 0;
+  -webkit-transition: -webkit-box-shadow 0.2s ease-in-out;
+  transition: -webkit-box-shadow 0.2s ease-in-out;
+  transition: box-shadow 0.2s ease-in-out;
+  transition: box-shadow 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out;
+  position: relative;
+}
+.blockquote-bubble .blockquote-cite {
+  padding: 0.5rem 2rem;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.blockquote cite {
+  display: block;
+  font-style: normal;
+  margin-top: 20px;
+}
+.blockquote-bubble .blockquote-content:after {
+  content: '';
+  background-color: inherit;
+  -webkit-mask: url(/wp-content/themes/marvel/img/commentary.svg) center top/contain no-repeat;
+  mask: url(/wp-content/themes/marvel/img/commentary.svg) center top/contain no-repeat;
+  position: absolute;
+  width: 4rem;
+  height: 1rem;
+  bottom: -1rem;
+  left: 2rem;
+}
+
+.blockquote-bubble .blockquote-cite a{
+  color: #eb3e3c;
+}
+/* #eb3e3c */
 #modal-tour-1,
 #modal-tour-2,
 #modal-tour-3,
@@ -1830,8 +1905,29 @@ nav ul li a:hover:after {
   margin-top: 50px;
   text-align: center;
 }
+.full-description{
+  margin: 50px 0;
+  text-align: center;
+}
+.full-description .full-description-content{
+  margin-top: 20px;
+  line-height: 1.5;
+  text-align: center;
+}
+.full-description h2{
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 1.5px;
+    color: black;
+    font-size: 18px;
+    text-transform: uppercase;
+}
 .modal-tour .program-time strong {
   font-weight: 600;
+}
+.modal-tour .program-time p {
+  font-weight: 300;
+  color: rgb(144, 144, 144);
+
 }
 .modal-tour .program-time h2 {
   font-family: "Roboto", sans-serif;
@@ -1868,6 +1964,7 @@ nav ul li a:hover:after {
 }
 .modal-tour .program-time .timeline p {
   font-size: 14px;
+
   color: #646464;
 }
 .modal-tour .program-time .timeline .event {
@@ -1915,6 +2012,13 @@ nav ul li a:hover:after {
 
 .modal-tour .review-item {
   margin-bottom: 30px;
+}
+
+.review .form button{
+  float:right;
+}
+.review .form button {
+  position: initial !important;
 }
 
 .modal-tour .review-author {
