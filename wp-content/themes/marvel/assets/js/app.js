@@ -161,17 +161,17 @@ function filterKgTab(thisTab) {
 }
 
 // Модальные окна
-function openModal(modalPath) {
-  $.fancybox.open({
-    src: modalPath,
-    modal: true,
-    opts: {
-      clickOutside: "close",
-      touch: false,
-      toolbar: false
-    }
-  });
-}
+// function openModal(modalPath) {
+//   $.fancybox.open({
+//     src: modalPath,
+//     modal: true,
+//     opts: {
+//       clickOutside: "close",
+//       touch: false,
+//       toolbar: false
+//     }
+//   });
+// }
 // (function() {
 //   var $trigger = $(".js-modal");
 
@@ -302,6 +302,38 @@ $(document).ready(function() {
     slidesToShow: 5,
     slidesToScroll: 1,
     asNavFor: ".review-slider-for",
+    dots: false,
+    centerMode: true,
+    focusOnSelect: true,
+    responsive: [
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 3,
+          arrows: true,
+          nextArrow:
+            '<img src="../wp-content/themes/marvel/img/akirova.com/svg/arrow-right.svg" class="slick-next">',
+          prevArrow:
+            '<img src="../wp-content/themes/marvel/img/akirova.com/svg/arrow-left.svg" class="slick-prev">'
+        }
+      }
+    ]
+  });
+});
+
+//отзывы кг тур
+$(document).ready(function() {
+  $(".partners-slider-for").slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    fade: false,
+    asNavFor: ".partners-slider-nav"
+  });
+  $(".partners-slider-nav").slick({
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    asNavFor: ".partners-slider-for",
     dots: false,
     centerMode: true,
     focusOnSelect: true,
