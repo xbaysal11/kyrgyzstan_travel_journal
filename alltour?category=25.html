@@ -1,0 +1,426 @@
+<div class="js--modal filtr" data-fancybox data-src="#filtr">Фильтр</div>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Marvel tourist agency</title>
+    <link rel="stylesheet" href="wp-content/themes/marvel/assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="wp-content/themes/marvel/assets/js/slick/slick.css">
+    <link rel="stylesheet" href="wp-content/themes/marvel/assets/js/slick/slick-theme.css">
+    <link rel="stylesheet" href="wp-content/themes/marvel/assets/css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="wp-content/themes/marvel/assets/js/swiper/css/swiper.min.css">
+    <link rel="shortcut icon" href="wp-content/themes/marvel/img/favicon.png" type="image/x-icon">
+
+</head>
+
+<body class="page-template page-template-archive-tours page-template-archive-tours-php page page-id-100 wp-custom-logo" >
+<main>
+<header class="header">
+	<div class="wrap">
+        <a href="index.html"><img src="wp-content/themes/marvel/img/akirova.com/logo-w.png" alt="" class="main-logo"></a>
+    </div>
+    <div class="header-top">
+        <div class="wrap">
+            <div class="header-mail header-top--item">
+                <i class="far fa-envelope-open"></i>
+                <a href="все-туры%3Fcategory=25.html">marveltravel@gmail.com</a>
+            </div>
+            <div class="header-phones header-top--item">
+                <i class="fas fa-mobile-alt"></i>
+                <a href="все-туры%3Fcategory=25.html">+996 772 169363</a>
+            </div>
+            <div class="header-phones header-top--item">
+                <i class="fas fa-phone-volume"></i>
+                <a href="все-туры%3Fcategory=25.html">+996 705 954549</a>
+            </div>
+            <div class="header-lang header-top--item" id="lang">
+                <i class="fas fa-globe-americas"></i>
+                <a hreflang="en-GB" lang="en-GB" href="en.html" class=" language" onclick="en();">eng</a>
+                <a hreflang="ru-RU" lang="ru-RU" href="index.html" class="active language" onclick="ru();">ru</a>
+            </div>
+        </div>
+    </div>
+    <div class="header-bottom js_default" id="js_sticky-menu">
+        <div class="wrap">
+            <ul class="header-menu">
+                <div class="menu-main-menu-container"><ul id="menu-main-menu" class="menu"><li id="menu-item-142" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-142"><a href="index.html">Главная</a></li>
+<li id="menu-item-143" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-143"><a href="tourkg/index.html">Туры по Кыргызстану</a></li>
+<li id="menu-item-141" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-141"><a href="акции/index.html">Акции</a></li>
+<li id="menu-item-140" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-140"><a href="визовая-информация/index.html">Визовая информация</a></li>
+<li id="menu-item-139" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-139"><a href="блог/index.html">Наш блог</a></li>
+<li id="menu-item-434" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-434"><a href="контакты/index.html">Контакты</a></li>
+</ul></div><!--                <li class="active"><a href="/">Главная</a></li>-->
+<!--                <li class=""><a href="/tourkg">Туры по Кыргызстану</a></li>-->
+<!--                <li class=""><a href="/акции">Акции</a></li>-->
+<!--                <li class=""><a href="/визовая-информация">Визовая информация</a></li>-->
+<!--                <li class=""><a href="/блог">Наш блог</a></li>-->
+<!--                <li class=""><a href="/контакты">Контакты</a></li>-->
+            </ul>
+        </div>
+    </div>
+</header>
+
+<script type="text/javascript">
+
+    function en() {
+        document.cookie='language=en';
+        location.reload();
+        $('.language').removeClass('active');
+//        $('#en').addClass('active');
+    }
+
+    function ru() {
+        document.cookie='language=ru';
+        location.reload();
+        $('.language').removeClass('active');
+//            $('#ru').addClass('active');
+
+    }
+
+  
+</script>
+
+
+    <section class="tourlist-header">
+        <div class="wrap">
+            <h1 class="page-header__title">Все туры</h1>
+            <ul class="breadcrumb">
+               <li><a href="index.html" rel="nofollow">Главная</a></li><li class='active'>Все туры</li>            </ul>
+        </div>
+    </section>
+    <div class="tour-list">
+        <div class="wrap clearfix">
+            <div class="left">
+                <div class="control-group">
+                    <h1>Наши подборки:</h1>
+                                        <label class="control control--checkbox">Скидки на туры в Тайланд                        <input value="21" name="spec[]" class="tour_cat" type="checkbox"  />
+                        <div class="control__indicator"></div>
+                    </label>
+                                        <label class="control control--checkbox">Поехали с друзьями на Бали?                        <input value="22" name="spec[]" class="tour_cat" type="checkbox"  />
+                        <div class="control__indicator"></div>
+                    </label>
+                                        <label class="control control--checkbox">Гранд-тур по Италии                        <input value="23" name="spec[]" class="tour_cat" type="checkbox"  />
+                        <div class="control__indicator"></div>
+                    </label>
+                                        <label class="control control--checkbox">Дети летят в Дубай бесплатно                        <input value="24" name="spec[]" class="tour_cat" type="checkbox"  />
+                        <div class="control__indicator"></div>
+                    </label>
+                                        <label class="control control--checkbox">Семейный отдых в Египте                        <input value="25" name="spec[]" class="tour_cat" type="checkbox" checked />
+                        <div class="control__indicator"></div>
+                    </label>
+                                        <label class="control control--checkbox">Египет - мировой центр дайвинга                        <input value="26" name="spec[]" class="tour_cat" type="checkbox"  />
+                        <div class="control__indicator"></div>
+                    </label>
+                                        <label class="control control--checkbox">Медовый месяц в сказочном о. Хайнань                        <input value="27" name="spec[]" class="tour_cat" type="checkbox"  />
+                        <div class="control__indicator"></div>
+                    </label>
+                                        <label class="control control--checkbox">Свадебное путешестие в Дубай                        <input value="28" name="spec[]" class="tour_cat" type="checkbox"  />
+                        <div class="control__indicator"></div>
+                    </label>
+                                    </div>
+                <div class="control-group">
+                    <h1>По Кыргызстану:</h1>
+                                            <label class="control control--checkbox">Катание на лошадях                            <input value="29" class="tour_cat" name="spec[]" type="checkbox" />
+                            <div class="control__indicator"></div>
+                        </label>
+                                            <label class="control control--checkbox">Поход в горы                            <input value="30" class="tour_cat" name="spec[]" type="checkbox" />
+                            <div class="control__indicator"></div>
+                        </label>
+                                            <label class="control control--checkbox">Пеший поход                            <input value="128" class="tour_cat" name="spec[]" type="checkbox" />
+                            <div class="control__indicator"></div>
+                        </label>
+                                            <label class="control control--checkbox">4x4 туры                            <input value="130" class="tour_cat" name="spec[]" type="checkbox" />
+                            <div class="control__indicator"></div>
+                        </label>
+                                            <label class="control control--checkbox">Велосипедные туры                            <input value="136" class="tour_cat" name="spec[]" type="checkbox" />
+                            <div class="control__indicator"></div>
+                        </label>
+                                            <label class="control control--checkbox">Охота на орлов                            <input value="140" class="tour_cat" name="spec[]" type="checkbox" />
+                            <div class="control__indicator"></div>
+                        </label>
+                                            <label class="control control--checkbox">Этно туры                            <input value="144" class="tour_cat" name="spec[]" type="checkbox" />
+                            <div class="control__indicator"></div>
+                        </label>
+                                            <label class="control control--checkbox">Горнолыжные туры                            <input value="145" class="tour_cat" name="spec[]" type="checkbox" />
+                            <div class="control__indicator"></div>
+                        </label>
+                                    </div>
+                <div class="control-group">
+                    <h1>Зарубежные туры:</h1>
+                                            <label class="control control--checkbox">Турция                            <input value="13" class="tour_cat" name="spec[]" type="checkbox" />
+                            <div class="control__indicator"></div>
+                        </label>
+                                            <label class="control control--checkbox">Дубай                            <input value="14" class="tour_cat" name="spec[]" type="checkbox" />
+                            <div class="control__indicator"></div>
+                        </label>
+                                            <label class="control control--checkbox">Азия                            <input value="15" class="tour_cat" name="spec[]" type="checkbox" />
+                            <div class="control__indicator"></div>
+                        </label>
+                                            <label class="control control--checkbox">Европа                            <input value="16" class="tour_cat" name="spec[]" type="checkbox" />
+                            <div class="control__indicator"></div>
+                        </label>
+                                    </div>
+            </div>
+            <div class="right items clearfix">
+            </div>
+        </div>
+    </div>
+
+		<footer>
+        <div class="wrap flex-between">
+            <div class="footer-item">
+                <h4 class="title">Marvel Travel</h4>
+                <ul>
+                    <li>
+                    	                            <a href="index.html">Главная</a>     	
+                                            </li>
+                    <li>
+                    	                            <a href="index.html">Все туры</a>     	
+                                            </li>
+                    <li>
+                    	                            <a href="tours-in-kg.html">Туры по Кыргызстану</a>
+                                            </li>
+                    <li>
+                    	                            <a href="sales.html">Акции</a>
+                                            </li>
+                    <li>
+                    	                            <a href="visa-information.html">Визовая информация</a>
+                                            </li>
+                    <li>
+                    	                            <a href="blog.html">Наш блог</a>
+                                            </li>
+                    <li>
+                    	                            <a href="все-туры%3Fcategory=25.html#">Контакты</a>
+                                            </li>
+                </ul>
+            </div>
+            <div class="footer-item">
+                <h4 class="title">
+                    Тематические туры
+                                    </h4>
+                <ul>
+                    <li><a href="все-туры%3Fcategory=21.html">  
+                    Поехали с друзьями на Бали?
+                    </a></li>
+                    <li><a href="все-туры%3Fcategory=22.html">
+                    Гранд тур по Италии
+                                        </a></li>
+                    <li><a href="все-туры%3Fcategory=23.html">
+                     Скидки на туры в Таиланд
+                    </a></li>
+                    <li><a href="все-туры%3Fcategory=24.html">
+                     Дети летят в Дубай бесплатно
+                    </a></li>
+                    <li><a href="все-туры%3Fcategory=25.html">
+                     Семейный отдых в Египте
+                    </a></li>
+                    <li><a href="все-туры%3Fcategory=26.html">
+                     Египет - мировой центр дайвинга
+                    </a></li>
+                    <li><a href="все-туры%3Fcategory=27.html">
+                     Медовый месяц в сказочном о. Хайнань
+                    </a></li>
+                    <li><a href="все-туры%3Fcategory=28.html">
+                     Сказочное путешествие в Дубай
+                    </a></li>
+                </ul>
+            </div>
+            <div class="footer-item">
+                <h4 class="title">
+                Туры по Кыргызстану
+                    </h4>
+                <ul>
+                                                     <li><a href="tours-in-kg.html">4x4 туры</a></li>
+                                  <li><a href="tours-in-kg.html">Велосипедные туры</a></li>
+                                  <li><a href="tours-in-kg.html">Горнолыжные туры</a></li>
+                                  <li><a href="tours-in-kg.html">Катание на лошадях</a></li>
+                                  <li><a href="tours-in-kg.html">Охота на орлов</a></li>
+                                  <li><a href="tours-in-kg.html">Пеший поход</a></li>
+                                  <li><a href="tours-in-kg.html">Поход в горы</a></li>
+                                  <li><a href="tours-in-kg.html">Этно туры</a></li>
+                               
+                
+                </ul>
+            </div>
+            <div class="footer-item">
+                <h4 class="title">
+                Интересные статьи
+                                    </h4>
+                <ul>
+                            <li><a href="заголовок-любой-записи/index.html">Заголовок любой записи</a></li>
+                    <li><a href="аэропорт-манас-парк-чон-кемин/index.html">Аэропорт «Манас» &#8212; парк Чон-Кемин</a></li>
+                        
+                </ul>
+            </div>
+            <a href="https://artcode.biz" class="ArtCode" target="_blank">
+                <img src="wp-content/themes/marvel/img/ArtCode.svg" alt="">
+            </a>
+        </div>        
+    </footer>
+
+</main>
+
+<nav>
+    <ul>
+        <div class="menu-main-menu-container"><ul id="menu-main-menu-1" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-142"><a href="index.html">Главная</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-143"><a href="tourkg/index.html">Туры по Кыргызстану</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-141"><a href="акции/index.html">Акции</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-140"><a href="визовая-информация/index.html">Визовая информация</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-139"><a href="блог/index.html">Наш блог</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-434"><a href="контакты/index.html">Контакты</a></li>
+</ul></div>    </ul>
+</nav>
+
+<div class="burger">
+    <span></span>
+</div>
+
+
+
+<script src="wp-content/themes/marvel/assets/js/jquery-3.3.1.min.js"></script>
+<script src="wp-content/themes/marvel/assets/js/jquery-migrate-1.2.1.min.js"></script>
+<script src="wp-content/themes/marvel/assets/js/slick/slick.min.js"></script>
+<script src="wp-content/themes/marvel/assets/js/typeit.min.js"></script>
+<script src="wp-content/themes/marvel/assets/js/jquery.fancybox.min.js"></script>
+<script src="wp-content/themes/marvel/assets/js/swiper/js/swiper.min.js"></script>
+<script src="wp-content/themes/marvel/assets/js/app.js"></script>
+<script src="wp-content/themes/marvel/js/app.js"></script>
+</body>
+</html>
+
+
+<div id="filtr" class="modal">
+        <div class="left">
+            <div class="control-group">
+                    <h1>Наши подборки:</h1>
+                                        <label class="control control--checkbox">Скидки на туры в Тайланд                        <input value="21" name="spec[]" class="tour_cat" type="checkbox"  />
+                        <div class="control__indicator"></div>
+                    </label>
+                                        <label class="control control--checkbox">Поехали с друзьями на Бали?                        <input value="22" name="spec[]" class="tour_cat" type="checkbox"  />
+                        <div class="control__indicator"></div>
+                    </label>
+                                        <label class="control control--checkbox">Гранд-тур по Италии                        <input value="23" name="spec[]" class="tour_cat" type="checkbox"  />
+                        <div class="control__indicator"></div>
+                    </label>
+                                        <label class="control control--checkbox">Дети летят в Дубай бесплатно                        <input value="24" name="spec[]" class="tour_cat" type="checkbox"  />
+                        <div class="control__indicator"></div>
+                    </label>
+                                        <label class="control control--checkbox">Семейный отдых в Египте                        <input value="25" name="spec[]" class="tour_cat" type="checkbox" checked />
+                        <div class="control__indicator"></div>
+                    </label>
+                                        <label class="control control--checkbox">Египет - мировой центр дайвинга                        <input value="26" name="spec[]" class="tour_cat" type="checkbox"  />
+                        <div class="control__indicator"></div>
+                    </label>
+                                        <label class="control control--checkbox">Медовый месяц в сказочном о. Хайнань                        <input value="27" name="spec[]" class="tour_cat" type="checkbox"  />
+                        <div class="control__indicator"></div>
+                    </label>
+                                        <label class="control control--checkbox">Свадебное путешестие в Дубай                        <input value="28" name="spec[]" class="tour_cat" type="checkbox"  />
+                        <div class="control__indicator"></div>
+                    </label>
+                                </div>
+            <div class="control-group">
+                    <h1>По Кыргызстану:</h1>
+                                            <label class="control control--checkbox">Катание на лошадях                            <input value="29" class="tour_cat" name="spec[]" type="checkbox" />
+                            <div class="control__indicator"></div>
+                        </label>
+                                            <label class="control control--checkbox">Поход в горы                            <input value="30" class="tour_cat" name="spec[]" type="checkbox" />
+                            <div class="control__indicator"></div>
+                        </label>
+                                            <label class="control control--checkbox">Пеший поход                            <input value="128" class="tour_cat" name="spec[]" type="checkbox" />
+                            <div class="control__indicator"></div>
+                        </label>
+                                            <label class="control control--checkbox">4x4 туры                            <input value="130" class="tour_cat" name="spec[]" type="checkbox" />
+                            <div class="control__indicator"></div>
+                        </label>
+                                            <label class="control control--checkbox">Велосипедные туры                            <input value="136" class="tour_cat" name="spec[]" type="checkbox" />
+                            <div class="control__indicator"></div>
+                        </label>
+                                            <label class="control control--checkbox">Охота на орлов                            <input value="140" class="tour_cat" name="spec[]" type="checkbox" />
+                            <div class="control__indicator"></div>
+                        </label>
+                                            <label class="control control--checkbox">Этно туры                            <input value="144" class="tour_cat" name="spec[]" type="checkbox" />
+                            <div class="control__indicator"></div>
+                        </label>
+                                            <label class="control control--checkbox">Горнолыжные туры                            <input value="145" class="tour_cat" name="spec[]" type="checkbox" />
+                            <div class="control__indicator"></div>
+                        </label>
+                                </div>
+            <div class="control-group">
+                    <h1>Зарубежные туры:</h1>
+                                            <label class="control control--checkbox">Турция                            <input value="13" class="tour_cat" name="spec[]" type="checkbox" />
+                            <div class="control__indicator"></div>
+                        </label>
+                                            <label class="control control--checkbox">Дубай                            <input value="14" class="tour_cat" name="spec[]" type="checkbox" />
+                            <div class="control__indicator"></div>
+                        </label>
+                                            <label class="control control--checkbox">Азия                            <input value="15" class="tour_cat" name="spec[]" type="checkbox" />
+                            <div class="control__indicator"></div>
+                        </label>
+                                            <label class="control control--checkbox">Европа                            <input value="16" class="tour_cat" name="spec[]" type="checkbox" />
+                            <div class="control__indicator"></div>
+                        </label>
+                                </div>
+        </div>
+</div>
+
+<script>
+    var ajaxurl = "https://marveltravel.net/wp-admin/admin-ajax.php";
+    function search(){
+        var checked = [];
+        $("input[name='spec[]']:checked").each(function ()
+        {
+            checked.push(parseInt($(this).val()));
+        });
+
+
+        $.post(ajaxurl,
+            {
+                'action': 'search_articles',
+                'spec': checked
+            },
+            function(response)
+            {
+                $('.items').html(response);
+            });
+    }
+
+    $(document).ready(function () {
+        search();
+    });
+
+    $('.tour_cat').on('change', function () {
+        search();
+            });
+
+    $('.js-modal').on('click', function (e) {
+        e.preventDefault();
+        var postid = $(this).attr('data-postid');
+        var self = $(this);
+        // I don't know why the shorthand method had not worked for me as well
+        // But this method has worked for me.
+        $.ajax({
+            type: "POST",
+            url: ajaxurl,
+            data: {
+                action: 'my_load_ajax_content',
+                postid: postid,
+            }
+        }).done(function (data) {
+            // Just simple html() method with data will show all the content.
+            self.attr('data-src', '#modal-tour-1');
+            $('#modal-tour-1').html(data);
+            openModal(self.attr('data-src'));
+        });
+    })
+
+</script>
+
+
