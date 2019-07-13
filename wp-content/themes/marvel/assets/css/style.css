@@ -506,6 +506,7 @@ nav ul li a:hover:after {
   visibility: visible;
   z-index: 1;
 }
+
 .first-screen video {
   width: 100%;
 }
@@ -840,7 +841,7 @@ nav ul li a:hover:after {
 }
 
 .kg-tours .wrap {
-  margin-bottom: 50px;
+  margin: 50px auto;
 }
 
 .fullscreen-bg {
@@ -2548,6 +2549,9 @@ blockquote {
   visibility: visible;
   z-index: 1;
 }
+.no-cutter.kg-first-screen:after {
+  visibility: hidden ;
+}
 
 .kg-main-slider img {
   height: 100vh;
@@ -3217,6 +3221,16 @@ blockquote {
 
 
 @media screen and (max-width: 767px) {
+  .first-screen::after{
+    display: none;
+  }
+  .kg-tour-review {
+    margin:0;
+    padding: 20px  0;
+  }
+  .about-kg .title{
+    margin: 0;
+  }
   .kg-tour-review .review-text {
     padding: 0 16px;
   }

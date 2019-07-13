@@ -75,9 +75,9 @@ $(document).ready(function() {
 $(document).ready(function() {
   $(".kg-main-slider--js").slick({
     nextArrow:
-      '<img src="tours/wp-content/themes/marvel/img/akirova.com/svg/arrow-right.svg" class="slick-next">',
+      '<img src="wp-content/themes/marvel/img/akirova.com/svg/arrow-right.svg" class="slick-next">',
     prevArrow:
-      '<img src="tours/wp-content/themes/marvel/img/akirova.com/svg/arrow-left.svg" class="slick-prev">',
+      '<img src="wp-content/themes/marvel/img/akirova.com/svg/arrow-left.svg" class="slick-prev">',
     autoplay: true,
     dots: false
   });
@@ -312,9 +312,9 @@ $(document).ready(function() {
           slidesToShow: 3,
           arrows: true,
           nextArrow:
-            '<img src="../wp-content/themes/marvel/img/akirova.com/svg/arrow-right.svg" class="slick-next">',
+            '<img src="wp-content/themes/marvel/img/akirova.com/svg/arrow-right.svg" class="slick-next">',
           prevArrow:
-            '<img src="../wp-content/themes/marvel/img/akirova.com/svg/arrow-left.svg" class="slick-prev">'
+            '<img src="wp-content/themes/marvel/img/akirova.com/svg/arrow-left.svg" class="slick-prev">'
         }
       }
     ]
@@ -344,9 +344,9 @@ $(document).ready(function() {
           slidesToShow: 3,
           arrows: true,
           nextArrow:
-            '<img src="../wp-content/themes/marvel/img/akirova.com/svg/arrow-right.svg" class="slick-next">',
+            '<img src="wp-content/themes/marvel/img/akirova.com/svg/arrow-right.svg" class="slick-next">',
           prevArrow:
-            '<img src="../wp-content/themes/marvel/img/akirova.com/svg/arrow-left.svg" class="slick-prev">'
+            '<img src="wp-content/themes/marvel/img/akirova.com/svg/arrow-left.svg" class="slick-prev">'
         }
       }
     ]
