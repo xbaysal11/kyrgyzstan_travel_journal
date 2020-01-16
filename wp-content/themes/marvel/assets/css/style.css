@@ -853,6 +853,7 @@ nav ul li a:hover:after {
   max-height: 80%;
   margin: -200px auto 0 0;
   overflow: auto;
+  width: 100%;
 }
 .container {
   margin-left: 8em;
